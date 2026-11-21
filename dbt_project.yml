@@ -1,4 +1,4 @@
-name: 311_data_warehouse
+name: data_warehouse_311
 version: 1.0.0
 profile: Bigquery
 models:
