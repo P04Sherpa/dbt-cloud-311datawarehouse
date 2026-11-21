@@ -1,0 +1,7 @@
+WITH street_conditions_311 AS
+(
+    SELECT *
+    FROM 'raw.raw_motor_vehicle_collisions'
+)
+SELECT *, current_timestamp() as loaded_at
+FROM union_311
